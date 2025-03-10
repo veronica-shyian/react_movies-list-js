@@ -1,13 +1,13 @@
 /* eslint-disable max-len */
 
 import './App.scss';
-import moviesFromServe from './api/movies.json';
+import moviesFromServer from './api/movies.json';
 import { MovieList } from './components/MovieList';
 
 export const App = () => (
   <div className="page">
     <div className="page-content">
-      <MovieList movies={moviesFromServe} />
+      <MovieList movies={moviesFromServer} />
     </div>
 
     <div className="sidebar" data-cy="Sidebar">
